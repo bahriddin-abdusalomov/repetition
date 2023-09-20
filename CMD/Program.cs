@@ -20,6 +20,11 @@ class Program
             {
                 string cmd = parts[0].ToLower();
 
+                if(command == "cd ..")
+                {
+                    cmd = "cd ..";
+                }
+                
                 switch (cmd)
                 {
                     case "cd":
@@ -66,11 +71,14 @@ class Program
 
     private static void BirQadamOrqaga()
     {
-         
+        string[] parts = currentDirectory.Split('\\');
+
+        currentDirectory = currentDirectory.Replace("\\" + parts[parts.Length  - 1], "");
+
     }
 
     private static void DirectoriyagaKirish(string[] parts)
     {
-        throw new NotImplementedException();
+        currentDirectory += "\\" + parts[1];   
     }
 }
