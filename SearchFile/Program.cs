@@ -13,9 +13,6 @@ class Program
 
         foreach (DriveInfo drive in drives)
         {
-            Console.WriteLine($"{drive.Name}...");
-            Console.WriteLine(drive.RootDirectory);
-
             SearchForFile(fileName, drive.RootDirectory);
         }
 
@@ -25,7 +22,7 @@ class Program
     {
         try
         {
-            FileInfo[] files = directory.GetFiles(fileName);
+            FileInfo[] files = directory.GetFiles();
 
             if (files.Length > 0)
             {
@@ -38,7 +35,7 @@ class Program
                 }
             }
         }
-        catch (UnauthorizedAccessException)
+        catch (Exception ex)
         {
         }
 
@@ -51,7 +48,7 @@ class Program
                 SearchForFile(fileName, subdirectory);
             }
         }
-        catch (UnauthorizedAccessException)
+        catch (Exception ex)
         {
         }
     }
