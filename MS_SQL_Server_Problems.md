@@ -14,8 +14,9 @@
 
 # Problem 4: join:https://leetcode.com/problems/market-analysis-i
 
+# Tugatilmagan !!!
 
-#Problem 5: case: https://leetcode.com/problems/reformat-department-table
+# Problem 5: case: https://leetcode.com/problems/reformat-department-table
 
 ![image](https://github.com/bahriddin-abdusalomov/repetition/assets/123171397/f0aaf88c-8ef3-4eca-aec7-cd4b3c396e37)
 
