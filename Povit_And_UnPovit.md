@@ -15,6 +15,6 @@
                 (2, '2023-01-01', 200.00),  (2, '2023-01-02', 250.00);                                                 
 ```
 
-                       ![image](https://github.com/bahriddin-abdusalomov/repetition/assets/123171397/51669670-83df-4f7d-8df2-27fb36ac6489)
+![Alternatif Metin](https://github.com/bahriddin-abdusalomov/repetition/assets/123171397/51669670-83df-4f7d-8df2-27fb36ac6489)
 
 
