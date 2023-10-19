@@ -8,10 +8,10 @@
 # Exmaple 
 
 ```
-            CREATE TABLE Sales ( ProductID INT, SaleDate DATE, Revenue DECIMAL(10, 2));
+            CREATE TABLE Sales ( ProductID INT, SaleDate DATE, Revenue DECIMAL(10, 2));                     
             
-            INSERT INTO Sales (ProductID, SaleDate, Revenue) VALUES
+            INSERT INTO Sales (ProductID, SaleDate, Revenue) VALUES                                  
                 (1, '2023-01-01', 100.00),  (1, '2023-01-02', 150.00),
-                (2, '2023-01-01', 200.00),  (2, '2023-01-02', 250.00);
+                (2, '2023-01-01', 200.00),  (2, '2023-01-02', 250.00);                                                 
 ```
 
