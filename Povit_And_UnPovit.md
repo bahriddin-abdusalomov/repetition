@@ -18,11 +18,22 @@
 # Natija 
 
 ```
-                           ProductID   SaleDate    Revenue
-                           1           2023-01-01  100.00
-                           1           2023-01-02  150.00
-                           2           2023-01-01  200.00
-                           2           2023-01-02  250.00                                                                               
+                     ProductID   SaleDate    Revenue
+                     1           2023-01-01  100.00
+                     1           2023-01-02  150.00
+                     2           2023-01-01  200.00
+                     2           2023-01-02  250.00                                                                               
 ```
 
+```
+        SELECT * FROM ( SELECT ProductID, SaleDate, Revenue FROM Sales) AS SourceData
+         PIVOT ( SUM(Revenue) FOR SaleDate IN ([2023-01-01], [2023-01-02])) AS PivotTable;                      
+```
 
+# Natija
+
+```
+                     ProductID   2023-01-01  2023-01-02
+                     1           100.00      150.00
+                     2           200.00      250.00                                                                     
+```
