@@ -14,6 +14,7 @@
                 (1, '2023-01-01', 100.00),  (1, '2023-01-02', 150.00),
                 (2, '2023-01-01', 200.00),  (2, '2023-01-02', 250.00);                                                 
 ```
-![image](https://github.com/bahriddin-abdusalomov/repetition/assets/123171397/c3e65d67-75d5-4253-95a8-89cafe9ce95f)
+
+                       ![image](https://github.com/bahriddin-abdusalomov/repetition/assets/123171397/51669670-83df-4f7d-8df2-27fb36ac6489)
 
 
