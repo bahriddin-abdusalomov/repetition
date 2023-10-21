@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMD", "CMD\CMD.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelForJson", "ModelForJson\ModelForJson.csproj", "{3DFB981F-3FC4-403D-9C30-41BFD6BCE2E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Threading.csproj", "{660527CE-37C6-449A-AD40-79304159C28A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threading", "Threading\Threading.csproj", "{660527CE-37C6-449A-AD40-79304159C28A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{D3C7FFA0-F231-4C86-9DAF-0410F58D6D86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{660527CE-37C6-449A-AD40-79304159C28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{660527CE-37C6-449A-AD40-79304159C28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{660527CE-37C6-449A-AD40-79304159C28A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C7FFA0-F231-4C86-9DAF-0410F58D6D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C7FFA0-F231-4C86-9DAF-0410F58D6D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C7FFA0-F231-4C86-9DAF-0410F58D6D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C7FFA0-F231-4C86-9DAF-0410F58D6D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
