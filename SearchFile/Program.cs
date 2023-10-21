@@ -41,11 +41,11 @@ class Program
 
         try
         {
-            DirectoryInfo[] subdirectories = directory.GetDirectories();
+            DirectoryInfo[] directories = directory.GetDirectories();
 
-            foreach (DirectoryInfo subdirectory in subdirectories)
+            foreach (DirectoryInfo dir in directories)
             {
-                SearchForFile(fileName, subdirectory);
+                SearchForFile(fileName, dir);
             }
         }
         catch (Exception ex)
