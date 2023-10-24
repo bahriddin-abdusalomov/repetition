@@ -4,6 +4,8 @@ using LINQ.MixedSyntax;
 using LINQ.Models;
 using LINQ.QuerySyntax;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Threading.Channels;
 
 
 // Method syntax
@@ -62,7 +64,38 @@ using System.Collections.Generic;
 //                         student.Age descending 
 //                         select student);
 
-var avgStudentContract = Student.GetAllStudents().Average(student => student.Contract);
-Console.WriteLine(avgStudentContract);
+//var avgStudentContract = Student.GetAllStudents().Average(student => student.Contract);
+//Console.WriteLine(avgStudentContract);
 
-var avgQueryContract = from studnet in Student.GetAllStudents() average
+//var kechgi = Student.GetAllStudents().Any(student => student.IsKechgi == true);
+//Console.WriteLine(kechgi);
+
+//var selectKechgi =  Student.GetAllStudents().Where(student => student.IsKechgi == true).ToList();
+//selectKechgi.ForEach(student => Console.WriteLine($"{student.FirstName} {student.Course}"));
+
+
+
+//public class StudentComparer : IEqualityComparer<Student>
+//{
+//    public bool Equals(Student? x, Student? y)
+//    {
+//        if (x == null || y == null)
+//            return false;
+//        if(object.ReferenceEquals(x, y)) 
+//            return true;
+
+//        return x.Id == y.Id && x.FirstName == y.FirstName;
+//    }
+
+//    public int GetHashCode([DisallowNull] Student obj)
+//    {
+//        if(object.ReferenceEquals (obj, null))
+//            return 0;
+
+//        int hashCardId  = obj.Id.GetHashCode();
+
+//        int hashCardName  = obj.FirstName == null ? 0 : obj.FirstName.GetHashCode();
+
+//        return hashCardId ^ hashCardName;
+//    }
+//}
